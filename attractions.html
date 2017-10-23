@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Local Attractions - Moorings B&amp;B Galway City - West Coast of Ireland</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+    <script type="text/javascript" src="scripts/js/navbar.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="scripts/js/testimonial.js"></script>
+    <link rel="icon" href="images/icons/website_icon.png">
+    <meta name="description" content="Popular tourist attractions located near to The Moorings B&B, Galway.">
+    <meta name="keywords" content="Moorings B&B, B&B, bed and breakfast, bed, breakfast, attractions, landmarks, Galway, City, Ireland, stay, affordable, quality, established, heart of galway city">
+</head>
+
+<body onload="startTestimonials()">
+    <div id="container">
+        <div id="header_caption"> <a href="#facebookpage" target="_blank"><img src="images/icons/facebook_icon.png" alt="facebook page link"></a><a href="#whatsapp" target="_blank"><img src="images/icons/whatsapp_icon.png" alt="whatsapp link"></a><a href="#instagram" target="_blank"><img src="images/icons/instagram_icon.png" alt="instagram link"></a></div>
+        <img id="page_header" src="images/headers/header.png" alt="Moorings B&B Galway City">
+        <nav id="page_nav">
+            <ul>
+                <li>
+                    <a href="index.html" accesskey="1">Home</a>
+                </li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li>
+                    <div class="pointer">Local</div>
+                    <ul>
+                        <li><a href="local_activities.html">Activities</a></li>
+                        <li><a id="selected_page" href="attractions.html">Attractions</a></li>
+                    </ul>
+                </li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="contact_block">
+                <h3>Contact Us</h3>
+                <h4>Phone</h4>
+                <p><a href="tel:#theirnumber">(+353) 091 111 11 11</a></p>
+                <h4>Email</h4>
+                <a href="mailto:#theemailaddress">
+                    <p> gillian@mooringsgalway.ie</p>
+                </a>
+                <h4>Address</h4>
+                <p>Moorings House,
+                    <br>College Road,
+                    <br>Co.Galway,
+                    <br> Ireland
+                </p>
+                <h4>Map</h4>
+                <a href="location.html"><img src="images/maps/location.JPG" alt="location of Moorings B&B on google map - link"></a>
+            </div>
+            <div id="testimonial_block">
+                <h3>Testimonials</h3>
+                <div id="testimonial_text"></div>
+                <img src="images/5stars.png" alt="The Moorings B&B client 5 star rating">
+            </div>
+            <div class="fulltext_block">
+                <h1>Galway Tourist Attractions</h1>
+                <p>Galway is a perfect base to explore the wide range of attractions dotted outside of the city. Within a short distance by bus or car you can visit any of the places listed below. So make sure you see at least a few of these places on your visit.</p>
+                <p>Sightseeing tours can be arranged at the B&amp;B at a discount for: Connemara, Cliffs of Moher, The Aran Islands and a bus tour of Galway City. All tickets can be purchased on arrival.</p>
+            </div>
+            <div id="spanisharch" class="textblock_img_right">
+                <h2>The Spanish Arch</h2>
+                <img src="images/landmarks/spanish_arch.jpg" alt="picture of galway city">
+                <p>The Spanish Arch (Irish: An Póirse) and the Caoċ Arch (Irish: An Póirse Caoċ) in Galway city, Ireland, are two remaining arches on the Ceann an Bhalla ("Front Wall"). The two arches were part of the extension of the city wall from Martin's Tower to the bank of the River Corrib, as a measure to protect the city's quays, which were in the area once known as the Fish Market (now Spanish Parade). It was constructed during the mayoralty of Wylliam Martin in 1584, being called ceann an bhalla (the head of the wall).</p>
+                <p>In the 18th century the Eyre family of Eyrecourt, County Galway, created an extension of the quays called The Long Walk and created the arches to allow access from the town to the new quays. The designation "Spanish" is not historical to this period and was likely known as the Eyre Arch when built.</p>
+            </div>
+            <div id="aran" class="textblock_img_left">
+                <h2>The Aran Islands</h2>
+                <img src="images/attractions/aran_islands.jpg" alt="picture of galway city">
+                <p>The Aran Islands are located about 48km (30 miles) from the mouth of Galway Bay. Inishmore (or Inis Mór) is the largest of the three islands which measures just 14km (9 miles) in length and 4.8km (3 miles) at its widest point. The islands are famous for their prehistoric and Christian monuments including the spectacular Dún Aengus fort that is one of best examples of this type of fort in all of Europe. Other ancient stone forts worth visiting include Dún Eoghanachta and the crumbling Dún Dúcathair. The unique landscape of the islands exhibit a crosshatch of thousands of miles of stone walls and visitors flock to the islands to enjoy the cliff-top walks and spectacular coastal scenery.</p>
+            </div>
+            <div id="connemara" class="textblock_img_right">
+                <h2>Connemara</h2>
+                <img src="images/attractions/connemara.jpg" alt="picture of galway city">
+                <p>The distinct region of Connemara is located in the north west corner of County Galway. Connemara's breathtaking landscape is a mixture of unspoilt rivers, lakes, woodlands, rich meadowlands, rugged hills, dramatic mountains and stunning coastline of sandy beaches and crystal blue waters. Connemara is a Gaeltacht (Irish-speaking) area, rich in Irish culture, heritage and traditions. The main town in the Connemara region is Clifden. It has lots of quirky shops, restaurants and traditional Irish pubs to explore. Throughout the region there are many very interesting attractions like Kylemore Abbey, Connemara History & Heritage Centre in Clifden, Glengowla Mines in Oughterard, the 40,000 acre Connemara National Park and the set of the film 'The Field' in Leenane, which was directed by Jim Sheridan in the 1990's. Connemara is the ideal place to visit if you want to experience all things Irish. </p>
+            </div>
+            <div id="kylemore" class="textblock_img_left">
+                <h2>Kylemore Abbey</h2>
+                <img src="images/attractions/kylemore_abbey.jpg" alt="picture of galway city">
+                <p>A trip to the West of Ireland is not complete without experiencing the beauty and tranquility of Kylemore Abbey and Gardens. It has an abundance of nature trails, woodland and a beautiful walled garden that will bring you back to the Victorian era. Facilities include a visitor centre, an exhibition housed in the main reception rooms of the house and a video which takes the visitor through the history of the house and its occupants. Open all year round.</p>
+            </div>
+            <div id="oranmore" class="textblock_img_right">
+                <h2>Oranmore Castle</h2>
+                <img src="images/attractions/oranmore_castle.jpg" alt="picture of galway city">
+                <p>Oranmore Castle dates back to the 15th century and was originally stronghold of the De Burgo clan. Known as 'An Cáislean Mór' or 'The Castle of the Well' it played a major role in the defence of Galway during the Confederate Rebellion in the 1640's when provisions were transported from the castle to the besieged fort of Galway. The castle was abandoned in the mid-1800s until it was purchased in 1945 by Lady Leslie for her daughter, the writer Anita Leslie, whose own daughter, Leonie currenty lives in the castle with her well known husband, the musician Alec Finn of De Danann. A visit to the castle is highly recommended as it offers an enchanting, inviting immersion of art, music and history. Oranmore Castle is open to the public from June to August 10am-2pm (closed Mondays). </p>
+            </div>
+            <div id="coole" class="textblock_img_left">
+                <h2>Coole Park</h2>
+                <img src="images/attractions/coolepark.jpg" alt="picture of galway city">
+                <p>Coole Park outside Gort was the home of Lady Augusta Gregory, dramatist and co-founder with Edward Martyn and W.B. Years of the Abbey Theatre. The garden of the house, with its yew walk and autograph tree is preserved. Carved on the autograph tree, among others are the signatures of John Masefield, George Bernard Shaw, Sean O'Casey. The area is also a National Nature Reserve due to its great wildlife importance with its native woodlands and turloughs. </p>
+            </div>
+            <div id="dunguaire" class="textblock_img_right">
+                <h2>Dunguaire Castle</h2>
+                <img src="images/attractions/dunguaire.jpg" alt="picture of galway city">
+                <p>Dunguaire Castle is a magnificent 16th century castle overlooking the village of Kinvara and Galway Bay. From April to September the castle comes alive with medieval banquets, which feature theatrical performances involving rhyme, verse music and song. Part of the lore about Dunguaire's Castle is that the Lord of the castle was very generous and he continued this generosity into the afterlife. Today, if a person stands at the front gate and asks a question, they will have an answer to their question by the end of the day.The castle also has a crafts and visitors shop. </p>
+            </div>
+            <div id="woodville" class="textblock_img_left">
+                <h2>Woodville Walled Garden</h2>
+                <img src="images/attractions/woodville.jpg" alt="picture of galway city">
+                <p>Woodville Walled Garden (www.woodvillewalledgarden.com) is located in Kilchreest at the foot of the beautiful Slieve Aughty mountains in south-east Galway. Dating back to the 18th century, the walled garden has been restored to its former glory and when you visit you will journey back in time. It opens daily from 11am-5.30pm and there is an entrance fee of €5 per person (family ticket €15).</p>
+            </div>
+            <div id="more" class="fulltext_block">
+                <h2>For More Information</h2>
+                <p>For more detailed information, check out <a href="https://www.galwaytourism.ie/psightseeing-galway.html" target="_blank">the excellent Galway Tourism site</a> filled with tons of information and guidance on how to get the best of your trip to Galway.</p>
+            </div>
+        </main>
+        <footer>
+            <table>
+                <tr>
+                    <td><a href="#facebookpage" target="_blank"><img src="images/icons/facebook_icon.png" alt="facebook page link"></a><a href="#whatsapp" target="_blank"><img src="images/icons/whatsapp_icon.png" alt="whatsapp link"></a><a href="#instagram" target="_blank"><img src="images/icons/instagram_icon.png" alt="instagram link"></a></td>
+                    <td><a href="sitemap.html" accesskey="3">Sitemap</a></td>
+                    <td><a href="contact.html">Contact us</a></td>
+                </tr>
+            </table>
+            <div id="footer_tripadvisor">
+                <a href="images/awards/tripadvisor_2015.png" target="_blank"><img src="images/awards/tripadvisor_2015.png" alt="picture of tripadvisor 2015 ceritification, also a link"></a>
+                <a href="images/awards/tripadvisor_2016.png" target="_blank"><img src="images/awards/tripadvisor_2016.png" alt="picture of tripadvisor 2015 ceritification, also a link"></a>
+            </div>
+            <div id="footer_copyright">
+                <p>&copy; <em>The Moorings B&amp;B Galway</em></p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

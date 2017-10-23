@@ -1,0 +1,153 @@
+worked out how to create a box model, used lots of padding
+
+realised used much too much padding, swapped around and used more margins
+
+worked out how to place footer at bottom of page
+
+made image for header
+
+created navbar
+
+https://www.booking.com/bed-and-breakfast/city/ie/galway.html
+
+https://websitesetup.org/web-safe-fonts-html-css/
+
+https://www.webdesignerdepot.com/2012/02/common-mobile-web-design-mistakes/
+
+https://www.crazyegg.com/blog/website-color-palettes/
+
+https://www.elegantthemes.com/blog/resources/30-sans-serif-fonts-perfect-for-website-headings
+https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp			//	how to use the font
+
+colours:
+		#E44424
+		#67BCDB
+		#A2AB58
+		#FFFFFF
+
+Didn't like navbar dissappearing, so worked out how to keep it in the window as user scrolls down the page, but also keep it under the heading.
+To overcome the page moving up when the navbar lost it's position on the page, I had to place an empty div that filled with a height when the navbar became fixed in the navbar script
+
+accessibility tips
+https://webdesign.tutsplus.com/articles/6-tips-for-improving-website-accessibility--webdesign-1660
+
+spent a day coming up with ideas for my page; colours, layout, style
+decided on a minamilist theme, but with clever neat changing boxes on the sides.
+didn't like having coloured box with text inside in the middle, it looked tacky. decided i'd have plain background, withe floating text in the middle (keep the
+box structure).
+thought a white faded static image in the background could look really good.
+
+looked at how other sites handled showing rooms, found a clean way involving a big gallery of images, and then tabbed text block down bottom, with
+options for different rooms and details for each one.
+
+was going to put a straight up google mapview, but saw a nice little box on a site that had a small image of map, with something like "location" written,
+which popped out with map. liked the idea of not just plonking the map there, but giving the user the option to open and look.
+
+considered having the header change through a couple of pictures.
+
+collected bunch of images
+
+css basically completed
+
+saw a site have their testomonials in a little concise box, that automatically kept going through them, thought it was very nice.
+either going to do something like that, or put a testomonial on a corner of each of the B&B images.
+
+really liked booking.com layout, instead of opening a new page or changing everything in the window, nice text blocks come in from the side, or float out on the screen, preserving the web page behind. definitely would like to try this, looks very clean.
+the reserve button is a nice thing to have too. shame I won't be able to do any of this.....
+
+small little line, with light coloured background color, showing bookin and bookout time with a little alarm clock logo, very neat and tidy.
+
+features with icons 1/2 words at bottom of text block in a bright colour.
+
+check room availability.
+
+room & price info.
+
+Something really nice is "Area information" block at the bottom, maybe make it a page.
+shows the distance to all the close emenities, and a title for the types of emenities.
+i.e. Close Landmarks									Airports
+		some galway bridge 0.1km							Blah airport 2.5km
+		some statue 0.3km 									etc
+		etc.
+	 Popular Restaurants
+	 	some restaurant 0.1km
+	 	etc.
+then have a link to google maps, and if time mark them all or find already marked galway map
+
+contact block floating left of page
+
+air conditioning
+breakfast, lunch, dinner
+wifi
+pets allowed / not allowed
+parking
+safe
+non-smoking
+
+payment types accepted
+
+check-in fee
+
+B&B license number
+
+restaurants:    https://www.google.ie/maps/search/galway+restaurants+google+maps/@53.2695395,-9.0686557,14z
+
+http://testimonial-generator.com/
+
+can embed maps from google maps as iframes
+can even have directions
+B&B
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d596.4296794077012!2d-9.041483170769256!3d53.276658098747795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96e9cbc332ed%3A0xb9feb68c39c73318!2s24+College+Rd%2C+The+Green%2C+Galway%2C+H91+NCX5!5e0!3m2!1sen!2sie!4v1499988533435" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+B&B to Shannon Airport
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d614910.7771813195!2d-9.481487476046976!3d52.984487421528755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x485b96e9cbc332ed%3A0xb9feb68c39c73318!2s24+College+Rd%2C+The+Green%2C+Co.+Galway%2C+H91+NCX5!3m2!1d53.2766581!2d-9.040936!4m5!1s0x485b41dad0f8b40b%3A0x6bf3c305b024f8dc!2sShannon+Airport%2C+Lismacleane%2C+Co.+Clare!3m2!1d52.6996573!2d-8.914691099999999!5e0!3m2!1sen!2sie!4v1499988579966" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+B&B to Dublin Airport
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1221287.72306243!2d-8.753446789543823!3d53.28366670435331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x485b96e9cbc332ed%3A0xb9feb68c39c73318!2s24+College+Rd%2C+The+Green%2C+Co.+Galway%2C+H91+NCX5!3m2!1d53.2766581!2d-9.040936!4m5!1s0x486711be6993192f%3A0x55121bb5b725f355!2sDublin+Airport%2C+Dublin!3m2!1d53.426448099999995!2d-6.249909799999999!5e0!3m2!1sen!2sie!4v1499988602241" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Tourist Attractions
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d19088.632735213232!2d-9.062841625604937!3d53.27020250557658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stourist+attractions+near+Galway+City!5e0!3m2!1sen!2sie!4v1499988677389" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+Restaurants
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d19088.633880331414!2d-9.062841634467107!3d53.27019994082417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurants+galway+city!5e0!3m2!1sen!2sie!4v1499988705741" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+press the hamburger, share/embed
+
+got testimonials changing every 5 seconds to the right of the page
+
+image slider
+
+have icons in my header
+
+seo
+https://blog.kissmetrics.com/commandments-of-internal-linking/
+
+text for pages
+http://www.galwaybayfishing.com/
+http://www.harbour.ie/en/outdoor-activities-galway/watersports-in-galway/
+http://www.odonoghues.ie/music.htm
+https://www.galwaytourism.ie/galway-angling/
+http://www.galwaygolf.com/
+http://www.mydiscoverireland.com/blog/2017/03/30/4-best-restaurants-galway/
+
+sitemap done
+
+metatags seo
+
+rooms page, have image zoom in at center of screen when hovered over
+helped by: https://stackoverflow.com/a/35132282
+modified to suit my needs
+
+added dropdown to "Local" in navbar for activities + attractions
+
+added meta description and meta keywords to each page for SEO
+
+completed rooms page
+
+awards placed in header
+
+confirm that all the html + css validates ( it does ).
+
+write doc
+
+finished.

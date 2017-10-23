@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Moorings B&amp;B Galway City - West Coast of Ireland</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+    <script type="text/javascript" src="scripts/js/navbar.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="scripts/js/testimonial.js"></script>
+    <link rel="icon" href="images/icons/website_icon.png">
+    <meta name="description" content="Rooms available at The Moorings B&B, Galway.">
+    <meta name="keywords" content="rooms, guest, beds, bed, bedroom, ensuite, shower, tv, internet, non-smoking, location, map, faq, enquiry, contact, Reservation, Booking, stay, Moorings B&B, B&B, bed and breakfast, bed, breakfast, attractions, landmarks, Galway, City, Ireland, stay, affordable, quality, established, heart of galway city">
+</head>
+
+<body onload="startTestimonials()">
+    <div id="container">
+        <div id="header_caption"> <a href="#facebookpage" target="_blank"><img src="images/icons/facebook_icon.png" alt="facebook page link"></a><a href="#whatsapp" target="_blank"><img src="images/icons/whatsapp_icon.png" alt="whatsapp link"></a><a href="#instagram" target="_blank"><img src="images/icons/instagram_icon.png" alt="instagram link"></a></div>
+        <img id="page_header" src="images/headers/header.png" alt="Moorings B&B Galway City">
+        <nav id="page_nav">
+            <ul>
+                <li>
+                    <a href="index.html" accesskey="1">Home</a>
+                </li>
+                <li><a id="selected_page" href="rooms.html">Rooms</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li>
+                    <div class="pointer">Local</div>
+                    <ul>
+                        <li><a href="local_activities.html">Activities</a></li>
+                        <li><a href="attractions.html">Attractions</a></li>
+                    </ul>
+                </li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="contact_block">
+                <h3>Contact Us</h3>
+                <h4>Phone</h4>
+                <p><a href="tel:#theirnumber">(+353) 091 111 11 11</a></p>
+                <h4>Email</h4>
+                <a href="mailto:#theemailaddress">
+                    <p> gillian@mooringsgalway.ie</p>
+                </a>
+                <h4>Address</h4>
+                <p>Moorings House,
+                    <br>College Road,
+                    <br>Co.Galway,
+                    <br> Ireland
+                </p>
+                <h4>Map</h4>
+                <a href="location.html"><img src="images/maps/location.JPG" alt="location of Moorings B&B on google map - link"></a>
+            </div>
+            <div id="testimonial_block">
+                <h3>Testimonials</h3>
+                <div id="testimonial_text"></div>
+                <img src="images/5stars.png" alt="The Moorings B&B client 5 star rating">
+            </div>
+            <div class="fulltext_block">
+                <h1>Rooms &amp; Rates</h1>
+                <!-- <img src="images/rooms/double_ensuite.jpg" alt="picture of a double room at The Moorings B&B, Galway city"> -->
+                <p>Warm hospitality awaits each guest of <em>The Moorings Bed and Breakfast</em>. Guests will feel welcome in this lovely, comfortable home, where every room is a delightful, pleasurable retreat. Each spacious guest room has a unique ambiance and is thoughtfully designed for your comfort and quiet relaxation. All rooms have private ensuite bathrooms generously appointed with soft, fluffy towels and fine soap and toiletries.</p>
+                <p>All rooms in the B&amp;B offer the following to its guests: luxuriously furnished, <b>non-smoking</b>, own <b>private bathrooms</b> with full size <b>baths</b>, separate <b>walk-in tropical rain showers</b>, walnut wooden floors, central heating, <b>iron and ironing board</b>, <b>hair dryer</b>, all with 32" to 40" <b>flat T.V</b>. and <b>tea/coffee</b> making facilities. <b>Full breakfast</b>, free 24 hour wireless broadband <b>Internet access</b> throughout, <b>free private off street car park</b> and all <b>taxes are included in rate.</b> </p>
+                <p>If you wish to book any of these rooms, please get in touch with us through our <a href="booking.html">booking page</a>.</p>
+            </div>
+            <div id="wild_atlantic_suite" class="textblock_img_right">
+                <h1>The Wild Atlantic Way Suite</h1>
+                <div class="room_enlarger">
+                    <a href="#wild_atlantic"><img src="images/rooms/wild_atlantic.jpg" alt="picture of the Wild Atlantic Suite at The Moorings B&B, Galway city">
+                    <span><img src="images/rooms/wild_atlantic.jpg" alt="big picture of the Wild Atlantic Suite at The Moorings B&B, Galway city"></span></a>
+                </div>
+                <p>Single Room – sleeps max of 1 person. Own private balcony. 32" TV. En-suite. Wifi. Iron &amp; board. Tea &amp; Coffee making facilities.</p>
+                <p>&euro;110 per night - breakfast and parking included.</p>
+                <p>For reservation, please visit our <a href="booking.html">booking page</a>.</p>
+                <p>For enquiry, please visit our <a href="contact.html">contact page</a>.</p>
+            </div>
+            <div id="moher_suite" class="textblock_img_left">
+                <h1>The Moher Suite</h1>
+                <div class="room_enlarger">
+                    <a href="#moher_suite_image"><img src="images/rooms/double_ensuite.jpg" alt="picture of the moher suite at The Moorings B&B, Galway city">
+                    <span><img src="images/rooms/double_ensuite.jpg" alt="picture of the moher suite at The Moorings B&B, Galway city"></span></a>
+                </div>
+                <p>Double or Twin Room – sleeps max of 2 people. 32" TV. En-suite. Wifi. Iron &amp; board. Tea &amp; Coffee making facilities. </p>
+                <p>&euro;140 per night - breakfast and parking included.</p>
+                <p>For reservation, please visit our <a href="booking.html">booking page</a>.</p>
+                <p>For enquiry, please visit our <a href="contact.html">contact page</a>.</p>
+            </div>
+            <div id="west_suite" class="textblock_img_right">
+                <h1>The West Suite</h1>
+                <div class="room_enlarger">
+                    <a href="#west_suite_image"><img src="new_images/rooms/west_suite.jpg" alt="picture of the West Suite at The Moorings B&B, Galway city">
+                    <span><img src="new_images/rooms/west_suite.jpg" alt="picture of the West Suite at The Moorings B&B, Galway city"></span></a>
+                </div>
+                <p>Triple Room – sleeps max of 3 people. Three single beds or one double bed and one single bed provided. 32" TV. En-suite. Wifi. Iron &amp; board. Tea &amp; Coffee making facilities. </p>
+                <p>&euro;180 per night - breakfast and parking included.</p>
+                <p>For reservation, please visit our <a href="booking.html">booking page</a>.</p>
+                <p>For enquiry, please visit our <a href="contact.html">contact page</a>.</p>
+            </div>
+            
+            <div id="connacht_suite" class="textblock_img_left">
+                <h1>The Connacht Suite</h1>
+                <div class="room_enlarger">
+                    <a href="#connacht_suite_image"><img src="images/rooms/double2singles.jpg" alt="picture of the connacht suite at The Moorings B&B, Galway city">
+                    <span><img src="images/rooms/double2singles.jpg" alt="picture of the connacht suite at The Moorings B&B, Galway city"></span></a>
+                </div>
+                <p> Family Room – sleeps max of 2 adults and 2 children. One Double and two single beds. Cots available.40" TV. En-suite. Wifi. Iron &amp; board. Tea &amp; Coffee making facilities.</p>
+                <p>&euro;220 per night - breakfast and parking included.</p>
+                <p>For reservation, please visit our <a href="booking.html">booking page</a>.</p>
+                <p>For enquiry, please visit our <a href="contact.html">contact page</a>.</p>
+            </div>
+        </main>
+        <footer>
+            <table>
+                <tr>
+                    <td><a href="#facebookpage" target="_blank"><img src="images/icons/facebook_icon.png" alt="facebook page link"></a><a href="#whatsapp" target="_blank"><img src="images/icons/whatsapp_icon.png" alt="whatsapp link"></a><a href="#instagram" target="_blank"><img src="images/icons/instagram_icon.png" alt="instagram link"></a></td>
+                    <td><a href="sitemap.html" accesskey="3">Sitemap</a></td>
+                    <td><a href="contact.html">Contact us</a></td>
+                </tr>
+            </table>
+            <div id="footer_tripadvisor">
+                <a href="images/awards/tripadvisor_2015.png" target="_blank"><img src="images/awards/tripadvisor_2015.png" alt="picture of tripadvisor 2015 ceritification, also a link"></a>
+                <a href="images/awards/tripadvisor_2016.png" target="_blank"><img src="images/awards/tripadvisor_2016.png" alt="picture of tripadvisor 2015 ceritification, also a link"></a>
+            </div>
+            <div id="footer_copyright">
+                <p>&copy; <em>The Moorings B&amp;B Galway</em></p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
